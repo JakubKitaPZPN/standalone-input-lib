@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
-import { StyledInputComponent } from './styled-input.component';
-
+import {NgModule} from '@angular/core';
+import {StyledInputComponent} from './styled-input.component';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -8,6 +8,7 @@ import { StyledInputComponent } from './styled-input.component';
     StyledInputComponent
   ],
   imports: [
+    MatButtonModule
   ],
   exports: [
     StyledInputComponent
