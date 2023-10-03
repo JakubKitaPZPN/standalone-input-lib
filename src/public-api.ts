@@ -5,4 +5,3 @@
 export * from './lib/styled-input.service';
 export * from './lib/styled-input.component';
 export * from './lib/styled-input.module';
-export * from '@angular/material/button';
